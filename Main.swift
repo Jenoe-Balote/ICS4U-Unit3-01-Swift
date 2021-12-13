@@ -11,9 +11,11 @@
 
 // How a stack works with OOP.
 let aStack: MrCoxallStack = MrCoxallStack()
-let number = 123
+let number1 = 11
+let number2 = 22
 
-aStack.push(pushNumber: number)
+aStack.push(pushNumber: number1)
+aStack.push(pushNumber: number2)
 aStack.showStack()
 
 print("Done.")
